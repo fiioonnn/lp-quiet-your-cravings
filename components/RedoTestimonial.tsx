@@ -15,14 +15,10 @@ export default function RedoTestimonial() {
             {/* Profile Image */}
             <div className="flex-shrink-0">
               <img
-                src="https://unavatar.io/instagram/rene.redo"
+                src="/images/rene-redo.jpg"
                 alt="René Dost – REDO"
                 className="w-28 h-28 md:w-36 md:h-36 rounded-full object-cover border-4"
                 style={{ borderColor: "#2B4C4C" }}
-                onError={(e) => {
-                  (e.target as HTMLImageElement).src =
-                    "https://placehold.co/120x120/2B4C4C/white?text=REDO";
-                }}
               />
             </div>
 
