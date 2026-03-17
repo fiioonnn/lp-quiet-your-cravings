@@ -1,3 +1,5 @@
+import AnnouncementBar from "@/components/AnnouncementBar";
+import TrustBar from "@/components/TrustBar";
 import Hero from "@/components/Hero";
 import SocialProof from "@/components/SocialProof";
 import Problem from "@/components/Problem";
@@ -9,6 +11,8 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <main>
+      <AnnouncementBar />
+      <TrustBar />
       <Hero />
       <SocialProof />
       <Problem />

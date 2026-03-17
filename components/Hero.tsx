@@ -2,62 +2,31 @@
 
 export default function Hero() {
   return (
-    <section className="bg-cream py-12 md:py-20 px-4">
-      <div className="max-w-4xl mx-auto text-center">
-        {/* Badge */}
-        <div className="inline-flex items-center gap-2 bg-soft-green text-olive px-4 py-2 rounded-full text-sm mb-6">
-          <span className="text-gold">★★★★★</span>
-          <span>Über 50.000 zufriedene Kunden</span>
-        </div>
-
-        {/* Main Headline */}
-        <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl text-olive-dark leading-tight mb-6">
-          Wie ich jeden Morgen aufwache und meine Essensgelüste für den ganzen Tag ausschalte
-        </h1>
-        
-        <p className="text-xl md:text-2xl text-olive font-serif italic mb-8">
-          — Jetzt sind 7 Kilo endgültig runter
-        </p>
-
-        {/* Testimonial Quote */}
-        <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm mb-8 max-w-3xl mx-auto">
-          <p className="text-warm-brown text-lg md:text-xl italic mb-4">
-            &quot;Ich habe endlich die Kontrolle über mein Essverhalten zurück. Keine unkontrollierten Heißhungerattacken mehr, keine Energietiefs am Nachmittag. Nach nur 3 Wochen fühlte ich mich wie ein neuer Mensch.&quot;
+    <section className="bg-[#F5F0EB] py-16 px-4 lg:px-8">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-8 items-center">
+        {/* Links: Text */}
+        <div className="text-left">
+          <h1 className="font-sans font-bold text-[36px] lg:text-[42px] text-[#333333] leading-tight mb-6">
+            „Wie ich jeden Morgen aufwache und meine Essensgelüste für den ganzen Tag ausschalte –{" "}
+            <span className="text-[#C47A3A]">Jetzt sind 7 Kilo endgültig runter</span>"
+          </h1>
+          <p className="text-[#555] text-lg mb-4">
+            Probieren Sie das <strong>NEU</strong> Ultimate Glucose Support aus: Schalten Sie Heißhungerattacken <strong>dauerhaft</strong> aus und regulieren Sie Ihren Blutzucker auf natürliche Weise.
           </p>
-          <p className="text-olive font-semibold">— Verified Customer</p>
+          <p className="text-[#555] mb-6">✅ 60-Tage-Geld-zurück-Garantie</p>
+          {/* Testimonial */}
+          <div className="border-l-4 border-[#E04040] pl-4 mb-8">
+            <p className="italic text-[#555]">"4 Kilo abgenommen. Ich fühle mich viel weniger aufgebläht und meine Lust auf Leckereien ist eingedämmt."</p>
+            <p className="font-semibold text-[#333] mt-1">— Cassandra C.</p>
+          </div>
+          <a href="#order" className="inline-block bg-[#5FBFA8] hover:bg-[#4DAA96] text-white font-bold uppercase tracking-wider text-[15px] px-8 py-4 rounded-full transition-all shadow-lg">
+            PROBIEREN SIE ULTIMATE GLUCOSE SUPPORT
+          </a>
         </div>
-
-        {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-          <div className="bg-soft-green p-4 rounded-xl">
-            <div className="text-2xl md:text-3xl font-bold text-olive">40%</div>
-            <div className="text-sm text-olive-light">weniger Blutzuckerspitzen</div>
-          </div>
-          <div className="bg-soft-green p-4 rounded-xl">
-            <div className="text-2xl md:text-3xl font-bold text-olive">47.5%</div>
-            <div className="text-sm text-olive-light">weniger Kalorien</div>
-          </div>
-          <div className="bg-soft-green p-4 rounded-xl">
-            <div className="text-2xl md:text-3xl font-bold text-olive">5</div>
-            <div className="text-sm text-olive-light">kraftvolle Inhaltsstoffe</div>
-          </div>
-          <div className="bg-soft-green p-4 rounded-xl">
-            <div className="text-2xl md:text-3xl font-bold text-olive">60</div>
-            <div className="text-sm text-olive-light">Tage Geld-zurück</div>
-          </div>
+        {/* Rechts: Bild */}
+        <div className="relative">
+          <img src="https://placehold.co/700x600/F5F0EB/5FBFA8?text=Ultimate+Glucose+Support" alt="Ultimate Glucose Support" className="w-full h-auto rounded-lg" />
         </div>
-
-        {/* CTA Button */}
-        <a
-          href="#order"
-          className="inline-block bg-olive hover:bg-olive-dark text-white font-semibold text-lg px-10 py-4 rounded-full transition-all transform hover:scale-105 shadow-lg"
-        >
-          Jetzt Ultimate Glucose Support testen →
-        </a>
-
-        <p className="text-warm-brown text-sm mt-4">
-          ✓ Kostenloser Versand · ✓ 60 Tage Geld-zurück-Garantie
-        </p>
       </div>
     </section>
   );
