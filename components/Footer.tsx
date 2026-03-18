@@ -1,48 +1,33 @@
 "use client";
-
 export default function Footer() {
   return (
-    <footer className="bg-olive-dark py-12 px-4">
-      <div className="max-w-5xl mx-auto">
-        <div className="text-center mb-8">
-          <h3 className="font-serif text-2xl text-white mb-2">Happy Mammoth</h3>
-          <p className="text-soft-green">Natürliche Lösungen für ein besseres Leben</p>
+    <footer style={{ backgroundColor: '#2d2d2d', color: '#aaa', padding: '40px 80px' }}>
+      <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '30px', marginBottom: '40px' }}>
+        <div>
+          <img src="/original-assets/Capa_1.png" alt="Happy Mammoth" style={{ height: '60px', objectFit: 'contain', marginBottom: '16px', filter: 'brightness(10)' }} />
+          <p style={{ fontSize: '14px', lineHeight: '1.6' }}>Happy Mammoth hilft Frauen und Männern dabei, Heißhunger zu bekämpfen und ein gesundes Gewicht zu halten.</p>
         </div>
-
-        <div className="grid md:grid-cols-3 gap-8 text-center md:text-left mb-8">
-          <div>
-            <h4 className="text-white font-semibold mb-4">Kontakt</h4>
-            <ul className="space-y-2 text-soft-green text-sm">
-              <li>E-Mail: support@happymammoth.com</li>
-              <li>Mo-Fr: 9:00 - 17:00 Uhr</li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold mb-4">Rechtliches</h4>
-            <ul className="space-y-2 text-soft-green text-sm">
-              <li><a href="#" className="hover:text-white transition-colors">Impressum</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Datenschutz</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">AGB</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold mb-4">Sicherheit</h4>
-            <ul className="space-y-2 text-soft-green text-sm">
-              <li>✓ SSL-verschlüsselt</li>
-              <li>✓ Sichere Zahlung</li>
-              <li>✓ Datenschutz-konform</li>
-            </ul>
-          </div>
+        <div>
+          <h4 style={{ color: '#fff', marginBottom: '16px', fontWeight: '700' }}>Produkte</h4>
+          {['Ultimate Glucose Support', 'Complete Gut Repair', 'Hormone Harmony Plus', 'Prebiotic Collagen Protein'].map(item => (
+            <p key={item} style={{ fontSize: '14px', margin: '0 0 8px' }}><a href="#" style={{ color: '#aaa', textDecoration: 'none' }}>{item}</a></p>
+          ))}
         </div>
-
-        <div className="border-t border-olive-light pt-8 text-center">
-          <p className="text-soft-green text-sm mb-4">
-            * Diese Aussagen wurden nicht von der FDA bewertet. Dieses Produkt ist nicht dazu bestimmt, Krankheiten zu diagnostizieren, zu behandeln, zu heilen oder zu verhindern.
-          </p>
-          <p className="text-soft-green text-sm">
-            © 2024 Happy Mammoth. Alle Rechte vorbehalten.
-          </p>
+        <div>
+          <h4 style={{ color: '#fff', marginBottom: '16px', fontWeight: '700' }}>Unternehmen</h4>
+          {['Unsere Geschichte', 'Blog', 'Bewertungen', 'VIP Club', 'Support'].map(item => (
+            <p key={item} style={{ fontSize: '14px', margin: '0 0 8px' }}><a href="#" style={{ color: '#aaa', textDecoration: 'none' }}>{item}</a></p>
+          ))}
         </div>
+        <div>
+          <h4 style={{ color: '#fff', marginBottom: '16px', fontWeight: '700' }}>Rechtliches</h4>
+          {['Datenschutz', 'AGB', 'Impressum', 'Widerruf'].map(item => (
+            <p key={item} style={{ fontSize: '14px', margin: '0 0 8px' }}><a href="#" style={{ color: '#aaa', textDecoration: 'none' }}>{item}</a></p>
+          ))}
+        </div>
+      </div>
+      <div style={{ borderTop: '1px solid #444', paddingTop: '20px', textAlign: 'center', fontSize: '13px' }}>
+        <p style={{ margin: 0 }}>© 2024 Happy Mammoth. Alle Rechte vorbehalten. | Die Aussagen auf dieser Website wurden nicht von der EFSA oder FDA bewertet.</p>
       </div>
     </footer>
   );

@@ -1,62 +1,34 @@
 "use client";
 
-const testimonials = [
-  {
-    name: "Cassandra C.",
-    text: "Nach nur einer Woche bemerkte ich, dass meine Heißhungerattacken nachließen. Jetzt, nach 2 Monaten, habe ich 6 kg abgenommen ohne Diät!",
-    rating: 5,
-  },
-  {
-    name: "Nicole L.",
-    text: "Ich war skeptisch, aber dieses Produkt hat mein Leben verändert. Meine Energielevel sind den ganzen Tag stabil und ich greife nicht mehr ständig zu Snacks.",
-    rating: 5,
-  },
-  {
-    name: "Faye M.",
-    text: "Endlich ein Produkt, das hält was es verspricht! Meine Blutzuckerwerte sind so stabil wie nie zuvor.",
-    rating: 5,
-  },
-  {
-    name: "Maricel L.",
-    text: "Die beste Entscheidung für meine Gesundheit. Ich fühle mich energiegeladen und die Gelüste nach Süßem sind praktisch verschwunden.",
-    rating: 5,
-  },
-  {
-    name: "Lisa G.",
-    text: "Ich nehme es jetzt seit 6 Wochen und die Ergebnisse sprechen für sich. 5 kg weniger und ich fühle mich großartig!",
-    rating: 5,
-  },
-  {
-    name: "Tania S.",
-    text: "Perfekt für alle, die mit Essensgelüsten kämpfen. Es funktioniert wirklich und die Qualität ist erstklassig.",
-    rating: 5,
-  },
+const mediaLogos = [
+  { name: 'cosmopolitan', src: '/original-assets/cosmopolitan.svg', quote: '„Ich war plötzlich richtig ausgeglichen. Mein Mann hat\'s sofort gemerkt."' },
+  { name: "Women's Health", src: '/original-assets/women-health.svg', quote: '„Mein Selbstvertrauen ist zurück. Ich fühle mich wieder wie ich!"' },
+  { name: 'USA Today', src: '/original-assets/usa-today-logo.svg', quote: '„Wieder mehr Lebensfreude und Kraft – und das schneller als gedacht."' },
+  { name: 'Who What Wear', src: '/original-assets/who-what-ever.svg', quote: '„Das ist ein Ergänzungsmittel, das man wirklich gerne nimmt. Es schmeckt so lecker - wie ein Vanille-Milchshake."' },
+  { name: 'Athlisure', src: '/original-assets/athlisure.svg', quote: '„Die 9 List: Complete Gut Repair"' },
+  { name: 'Body+Soul', src: '/original-assets/bodysoul.svg', quote: '„Meinem Bauch geht es definitiv besser als vorher, was ein wahres Wunder ist."' },
 ];
 
 export default function SocialProof() {
   return (
-    <section className="bg-white py-16 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="font-serif text-3xl md:text-4xl text-olive-dark text-center mb-4">
-          Was unsere Kunden sagen
+    <section style={{ backgroundColor: '#fff', padding: '60px 80px' }}>
+      <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
+        <h2 style={{ textAlign: 'center', fontFamily: 'var(--font-cabin)', fontWeight: 700, fontSize: '32px', color: '#2d2d2d', marginBottom: '40px' }}>
+          Durch Forschung in der Wirksamkeit bestätigte Inhaltsstoffe. Erwähnt in:
         </h2>
-        <p className="text-center text-warm-brown mb-12">
-          Über 50.000 zufriedene Kunden haben bereits ihre Essensgelüste besiegt
-        </p>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonials.map((testimonial, index) => (
-            <div
-              key={index}
-              className="bg-cream p-6 rounded-2xl shadow-sm hover:shadow-md transition-shadow"
-            >
-              <div className="flex gap-1 mb-3">
-                {[...Array(testimonial.rating)].map((_, i) => (
-                  <span key={i} className="text-gold text-xl">★</span>
-                ))}
-              </div>
-              <p className="text-warm-brown italic mb-4">&quot;{testimonial.text}&quot;</p>
-              <p className="text-olive font-semibold">— {testimonial.name}</p>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(6, 1fr)', gap: '20px' }}>
+          {mediaLogos.map((media, i) => (
+            <div key={i} style={{
+              border: '1px solid #eee',
+              borderRadius: '10px',
+              padding: '20px',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              gap: '14px',
+            }}>
+              <img src={media.src} alt={media.name} style={{ height: '30px', objectFit: 'contain', filter: 'grayscale(1)' }} />
+              <p style={{ fontSize: '13px', color: '#555', textAlign: 'center', margin: 0, lineHeight: '1.5', fontStyle: 'italic' }}>{media.quote}</p>
             </div>
           ))}
         </div>

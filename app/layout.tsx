@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Cabin, Montserrat } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const cabin = Cabin({
+  variable: "--font-cabin",
   subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -26,7 +27,8 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body
-        className={`${playfair.variable} ${inter.variable} antialiased bg-cream`}
+        className={`${cabin.variable} ${montserrat.variable} antialiased`}
+        style={{ fontFamily: 'var(--font-cabin), sans-serif', backgroundColor: '#fafafa', color: '#54585a' }}
       >
         {children}
       </body>
