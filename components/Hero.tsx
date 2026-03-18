@@ -1,16 +1,16 @@
 "use client";
 export default function Hero() {
   return (
-    <section style={{ backgroundColor: '#f5f5f5', position: 'relative', overflow: 'hidden' }}>
-      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'flex', alignItems: 'stretch', minHeight: '600px' }}>
+    <section style={{ backgroundColor: '#f5f0eb', position: 'relative', overflow: 'hidden' }}>
+      <div style={{ maxWidth: '1440px', margin: '0 auto', display: 'flex', alignItems: 'stretch', minHeight: '620px' }}>
         {/* Left: Text Content */}
-        <div style={{ flex: '1', padding: '60px 60px 60px 80px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-          <h1 style={{ fontFamily: 'var(--font-cabin)', fontWeight: 700, fontSize: '38px', lineHeight: '1.25', color: '#0a0a0a', marginBottom: '24px', maxWidth: '520px' }}>
+        <div style={{ flex: '0 0 55%', padding: '50px 50px 50px 80px', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
+          <h1 style={{ fontFamily: 'var(--font-cabin)', fontWeight: 700, fontSize: '44px', lineHeight: '1.2', color: '#0a0a0a', marginBottom: '24px', maxWidth: '560px' }}>
             „Wie ich jeden Morgen aufwache und meine Essensgelüste für den ganzen Tag ausschalte –{' '}
             <span style={{ color: '#e05a4e' }}>Jetzt sind 7 Kilo endgültig runter</span>"
           </h1>
           <p style={{ fontSize: '17px', color: '#333', marginBottom: '30px', maxWidth: '520px', lineHeight: '1.6' }}>
-            Probieren Sie das NEU <strong>Ultimate Glucose Support</strong> aus: Schalten Sie Heißhungerattacken <strong>dauerhaft</strong> aus, um hartnäckiges Fett auf Autopilot zu schmelzen – Keine „Willenskraft", „Disziplin" oder „Motivation" erforderlich
+            Probieren Sie das NEU <strong>Ultimate Glucose Support</strong> aus: Schalten Sie Heißhungerattacken <strong>dauerhaft</strong> aus, um hartnäckiges Fett auf Autopilot zu schmelzen (dauerhaft) – Keine „Willenskraft", „Disziplin" oder „Motivation" erforderlich
           </p>
           <a href="#pricing" style={{
             backgroundColor: '#5cc8a4',
@@ -27,30 +27,29 @@ export default function Hero() {
           }}>
             PROBIEREN SIE ULTIMATE GLUCOSE SUPPORT
           </a>
-          <p style={{ fontSize: '14px', color: '#555', margin: 0 }}>✅ 60-Tage-Geld-zurück-Garantie</p>
+          <p style={{ fontSize: '14px', color: '#555', margin: '0 0 24px' }}>✅ 60-Tage-Geld-zurück-Garantie</p>
 
-          {/* Testimonial overlay box */}
+          {/* Testimonial box */}
           <div style={{
-            marginTop: '30px',
             border: '2px solid #e05a4e',
             borderRadius: '10px',
             padding: '20px',
             backgroundColor: '#fff',
-            maxWidth: '420px',
+            maxWidth: '440px',
             textAlign: 'left',
           }}>
             <p style={{ fontSize: '14px', color: '#333', margin: 0, lineHeight: '1.6' }}>
-              „4 Kilo abgenommen. Ich fühle mich viel weniger <strong>aufgebläht</strong> und meine Lust auf Leckereien ist <strong>eingedämmt</strong>." ⭐⭐⭐⭐⭐<br />
+              „4 Kilo <strong>abgenommen</strong>. Ich fühle mich viel weniger <strong>aufgebläht</strong> und meine Lust auf Leckereien ist <strong>eingedämmt</strong>." ⭐⭐⭐⭐⭐<br />
               <strong>– Cassandra C.</strong>
             </p>
           </div>
         </div>
 
         {/* Right: Hero Image */}
-        <div style={{ width: '45%', position: 'relative', minHeight: '600px', overflow: 'hidden' }}>
+        <div style={{ flex: '0 0 45%', position: 'relative', overflow: 'hidden' }}>
           <img
-            src="/original-assets/image.png"
-            alt="Drei glückliche Frauen"
+            src="/original-assets/shutterstock_2025182048%202.png"
+            alt="Glückliche Frauen"
             style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
           />
         </div>
@@ -58,32 +57,29 @@ export default function Hero() {
 
       {/* Benefits Bar */}
       <div style={{ backgroundColor: '#fff', padding: '30px 80px', borderTop: '1px solid #eee' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '20px' }}>
+        <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '30px' }}>
           {[
-            { icon: '🔥', text: '**Heißhunger** in nur 2 Stunden **ausschalten**' },
-            { icon: '⚖️', text: 'Auf natürliche Weise **47,5 % weniger Kalorien** pro Tag essen' },
-            { icon: '📊', text: '**Starten Sie mit dem Ausgleich des Blutzuckerspiegels** in 30 Min. oder weniger' },
-            { icon: '🌿', text: '**40 % weniger Blutzucker**spitzen nach Mahlzeiten' },
+            { icon: '/original-assets/Group%201000002801.png', text: '<strong style="color:#e05a4e">Heißhunger</strong> in nur 2 Stunden <strong style="color:#e05a4e">ausschalten</strong>' },
+            { icon: '/original-assets/Group%201000003011.png', text: 'Auf natürliche Weise <strong style="color:#e05a4e">47,5 % weniger Kalorien</strong> pro Tag essen' },
+            { icon: '/original-assets/Group%201000003001.png', text: '<strong style="color:#e05a4e">Starten Sie mit dem Ausgleich des Blutzuckerspiegels</strong> in 30 Min. oder weniger' },
+            { icon: '/original-assets/Group%201000003002.png', text: '<strong style="color:#e05a4e">40 % weniger Blutzucker</strong>spitzen nach Mahlzeiten' },
           ].map((benefit, i) => (
             <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
               <div style={{
                 backgroundColor: '#fde8e8',
                 borderRadius: '50%',
-                width: '54px',
-                height: '54px',
+                width: '56px',
+                height: '56px',
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
-                fontSize: '22px',
                 flexShrink: 0,
+                overflow: 'hidden',
               }}>
-                {benefit.icon}
+                <img src={benefit.icon} alt="" style={{ width: '36px', height: '36px', objectFit: 'contain' }} />
               </div>
               <p style={{ fontSize: '14px', color: '#333', margin: 0, lineHeight: '1.5' }}
-                dangerouslySetInnerHTML={{
-                  __html: benefit.text
-                    .replace(/\*\*(.*?)\*\*/g, '<strong style="color:#e05a4e">$1</strong>')
-                }}
+                dangerouslySetInnerHTML={{ __html: benefit.text }}
               />
             </div>
           ))}

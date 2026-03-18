@@ -30,7 +30,7 @@ const plans = [
     discountBg: '#e63946',
     klarna: '52,49',
     freeShipping: true,
-    img: '/original-assets/Bottle_001%2014.png',
+    img: '/original-assets/Group%201000002985%20_1_.png',
   },
   {
     label: 'BESTER DEAL',
@@ -46,7 +46,7 @@ const plans = [
     discountBg: '#f0a0a0',
     klarna: '27,49',
     freeShipping: true,
-    img: '/original-assets/Bottle_001%2013.png',
+    img: '/original-assets/Group%201000002986%20_1_.png',
   },
 ];
 

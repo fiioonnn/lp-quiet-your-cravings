@@ -37,7 +37,7 @@ export default function AnnouncementBar() {
         </div>
         <div style={{ textAlign: 'center' }}>
           <a href="https://de.happymammoth.com">
-            <img src="/original-assets/Capa_1.png" alt="Happy Mammoth" style={{ height: '70px', objectFit: 'contain' }} />
+            <img src="https://eu.happymammoth.com/cdn/shop/files/HM_Logo_Black_1.webp?v=1742462762&width=100" alt="Happy Mammoth" style={{ height: '70px', objectFit: 'contain' }} />
           </a>
         </div>
         <div style={{ display: 'flex', gap: '20px', alignItems: 'center', fontSize: '15px' }}>
