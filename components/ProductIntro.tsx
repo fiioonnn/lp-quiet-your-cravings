@@ -23,7 +23,7 @@ export default function ProductIntro() {
           {/* Left: Product bottle */}
           <div style={{ flex: '0 0 40%', textAlign: 'center' }}>
             <img
-              src="/original-assets/Bottle_001%2013.png"
+              src="https://ucarecdn.com/ca190acc-e516-459e-9041-b59f7496e80e/-/format/auto/-/preview/3000x3000/-/quality/lighter/Bottle_001%2013.png"
               alt="Ultimate Glucose Support"
               style={{ maxWidth: '400px', width: '100%', objectFit: 'contain' }}
             />

@@ -14,7 +14,7 @@ const plans = [
     discount: null,
     klarna: '14,99',
     freeShipping: false,
-    img: '/original-assets/Bottle_001%2013.png',
+    img: 'https://ucarecdn.com/ca190acc-e516-459e-9041-b59f7496e80e/-/format/auto/-/preview/3000x3000/-/quality/lighter/Bottle_001%2013.png',
   },
   {
     label: 'AM BELIEBTESTEN',
@@ -30,7 +30,7 @@ const plans = [
     discountBg: '#e63946',
     klarna: '52,49',
     freeShipping: true,
-    img: '/original-assets/Group%201000002985%20_1_.png',
+    img: 'https://ucarecdn.com/a0acb54d-5503-4b59-a97b-15568f5f9596/-/format/auto/-/preview/3000x3000/-/quality/lighter/Group%201000002985%20_1_.png',
   },
   {
     label: 'BESTER DEAL',
@@ -46,7 +46,7 @@ const plans = [
     discountBg: '#f0a0a0',
     klarna: '27,49',
     freeShipping: true,
-    img: '/original-assets/Group%201000002986%20_1_.png',
+    img: 'https://ucarecdn.com/8374accb-8600-419e-a567-d3c5323d001d/-/format/auto/-/preview/3000x3000/-/quality/lighter/Group%201000002986%20_1_.png',
   },
 ];
 

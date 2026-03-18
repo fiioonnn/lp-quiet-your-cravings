@@ -2,25 +2,25 @@
 
 const team = [
   {
-    img: '/original-assets/Group%201000002981.png',
+    img: 'https://ucarecdn.com/645e36fc-0e97-4594-853d-c44fdcf85c01/-/format/auto/-/preview/3000x3000/-/quality/lighter/Rectangle%202900.png',
     name: 'Tobie Kokot, MA',
     title: 'Chef-Ernährungs-wissenschaftler',
     bio: 'Tobie kommt aus Deutschland, wo er einen Master-Abschluss in Ernährungswissenschaften gemacht hat. Tobie entwickelt unsere natürlichen Formulierungen mit der „deutschen Präzision", die uns von anderen Marken abhebt.',
   },
   {
-    img: '/original-assets/Group%201000002985%20_1_.png',
+    img: 'https://ucarecdn.com/ce87bec8-7425-48cb-9401-b1131a7c5c69/-/format/auto/-/preview/3000x3000/-/quality/lighter/Rectangle%202887%20_1_.png',
     name: 'Matt Murphy, BBus',
     title: 'CEO, Gründer und BioHacker',
     bio: 'Matt hat Happy Mammoth im Jahr 2017 gegründet. Angetrieben von Neugier, Wissensdurst, einer Begeisterung für qualitativ hochwertige Produktformulierungen und einer Leidenschaft für Naturheilkunde, führt ihn seine Suche nach wirksamen pflanzlichen Inhaltsstoffen rund um die Welt.',
   },
   {
-    img: '/original-assets/Group%201000002986%20_1_.png',
+    img: 'https://ucarecdn.com/be0a2c30-97bd-4ab0-acc3-0556001c6be0/-/format/auto/-/preview/3000x3000/-/quality/lighter/Rectangle%202901.png',
     name: 'Aimée Gould Shunney, N.D',
     title: 'Ärztin für Naturheilverfahren und Hormonstörungen bei Frauen',
     bio: 'Dr. Aimée ist seit 2001 in eigener Praxis tätig und arbeitet derzeit am Santa Cruz Integrative Medicine Center. Sie ist auf Frauengesundheit spezialisiert, insbesondere die Wechseljahres-Begleitung, die individuelle Einstellung bioidentischer Hormone und die Behandlung funkt. Verdauungsbeschwerden.',
   },
   {
-    img: '/original-assets/Group%201000002999.png',
+    img: 'https://ucarecdn.com/194cb727-43e7-427d-80a0-88d5b9ee55cc/-/format/auto/-/preview/3000x3000/-/quality/lighter/Rectangle%202903.png',
     name: 'Annie Savage, ND',
     title: 'Ärztin für Naturheilverfahren und Hormone, PMS und Menopause',
     bio: 'Dr. Savage ist eine zugelassene Ärztin für Naturheilkunde aus Kanada. Sie verfügt über ein umfangreiches Fachwissen in Bereich Frauengesundheit, Naturheilkunde und hat in diesem Bereich ein Coaching-Programm „The Symptom-Free Period System" entwickelt.',

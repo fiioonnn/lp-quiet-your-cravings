@@ -18,7 +18,7 @@ export default function Timeline() {
           {/* Left: Image */}
           <div>
             <img
-              src="/original-assets/Rectangle%202682.png"
+              src="https://ucarecdn.com/f1d59e9c-b4d8-4e99-a4aa-31a094dd59fa/-/format/auto/-/preview/1920x1920/-/quality/lighter/Rectangle%202682.png"
               alt="Frau mit Ergebnissen"
               style={{ width: '100%', objectFit: 'cover', borderRadius: '4px' }}
             />

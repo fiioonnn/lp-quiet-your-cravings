@@ -71,7 +71,7 @@ export default function Benefits() {
           {/* Image */}
           <div>
             <img
-              src="/original-assets/Rectangle%202900.png"
+              src="https://ucarecdn.com/f2e1c3f1-9b99-4b3e-854a-f8da936b37c9/-/format/auto/-/preview/3000x3000/-/quality/lighter/image.png"
               alt="Selbstbewusste Frau"
               style={{ width: '100%', objectFit: 'cover', borderRadius: '4px' }}
             />

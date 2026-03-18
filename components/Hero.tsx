@@ -48,7 +48,7 @@ export default function Hero() {
         {/* Right: Hero Image */}
         <div style={{ flex: '0 0 45%', position: 'relative', overflow: 'hidden' }}>
           <img
-            src="/original-assets/shutterstock_2025182048%202.png"
+            src="/original-assets/hero-women.png"
             alt="Glückliche Frauen"
             style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
           />
@@ -59,10 +59,10 @@ export default function Hero() {
       <div style={{ backgroundColor: '#fff', padding: '30px 80px', borderTop: '1px solid #eee' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr 1fr 1fr', gap: '30px' }}>
           {[
-            { icon: '/original-assets/Group%201000002801.png', text: '<strong style="color:#e05a4e">Heißhunger</strong> in nur 2 Stunden <strong style="color:#e05a4e">ausschalten</strong>' },
-            { icon: '/original-assets/Group%201000003011.png', text: 'Auf natürliche Weise <strong style="color:#e05a4e">47,5 % weniger Kalorien</strong> pro Tag essen' },
-            { icon: '/original-assets/Group%201000003001.png', text: '<strong style="color:#e05a4e">Starten Sie mit dem Ausgleich des Blutzuckerspiegels</strong> in 30 Min. oder weniger' },
-            { icon: '/original-assets/Group%201000003002.png', text: '<strong style="color:#e05a4e">40 % weniger Blutzucker</strong>spitzen nach Mahlzeiten' },
+            { icon: 'https://ucarecdn.com/cb30552d-8570-46a1-a500-3a38ad4b5ffb/-/format/auto/-/preview/500x500/-/quality/lighter/Group%201000002801.png', text: '<strong style="color:#e05a4e">Heißhunger</strong> in nur 2 Stunden <strong style="color:#e05a4e">ausschalten</strong>' },
+            { icon: 'https://ucarecdn.com/5f3de428-6d81-4176-84d0-623c930240d1/-/format/auto/-/preview/500x500/-/quality/lighter/Group%201000003011.png', text: 'Auf natürliche Weise <strong style="color:#e05a4e">47,5 % weniger Kalorien</strong> pro Tag essen' },
+            { icon: 'https://ucarecdn.com/971191f9-14aa-4c10-b1c8-c71d4663a6c3/-/format/auto/-/preview/500x500/-/quality/lighter/Group%201000003001.png', text: '<strong style="color:#e05a4e">Starten Sie mit dem Ausgleich des Blutzuckerspiegels</strong> in 30 Min. oder weniger' },
+            { icon: 'https://ucarecdn.com/9778f364-29fb-4238-a28b-18cf198d364c/-/format/auto/-/preview/500x500/-/quality/lighter/Group%201000003002.png', text: '<strong style="color:#e05a4e">40 % weniger Blutzucker</strong>spitzen nach Mahlzeiten' },
           ].map((benefit, i) => (
             <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '15px' }}>
               <div style={{

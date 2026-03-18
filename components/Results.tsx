@@ -79,17 +79,17 @@ export default function Results() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '40px', marginBottom: '40px' }}>
             {[
               {
-                img: '/original-assets/Group%201000002576.png',
+                img: 'https://ucarecdn.com/6d10be8a-347e-45a1-bc2e-9ad888bcd191/-/format/auto/-/preview/500x500/-/quality/lighter/Ellipse%20249%20_1_.png',
                 name: 'Reducose® Weiß\nExtrakt aus Maulbeerblättern',
                 text: 'Verlangsamt die Verdauung von Kohlenhydraten und verhindert so, dass der Blutzuckerspiegel in die Höhe schnellt, was den Appetit und das Verlangen nach einer Mahlzeit in weniger als 2 Stunden reduziert. In einer placebokontrollierten klinischen Studie führte nur 1 Dosis des Extrakts aus weißem Maulbeerblatt zu <strong>40 % weniger Blutzuckerspitzen nach den Mahlzeiten</strong>.',
               },
               {
-                img: '/original-assets/Group%201000002657.png',
+                img: 'https://ucarecdn.com/e7512296-d5e8-4c3d-95de-87ca65fde677/-/format/auto/-/preview/500x500/-/quality/lighter/Ellipse%20250.png',
                 name: 'Schwarzes Maulbeerblatt\nAuszug',
                 text: 'Fördert das Sättigungsgefühl nach den Mahlzeiten, um auf natürliche Weise den Appetit zu zügeln und den Kreislauf des übermäßigen Essens zu beenden. Es wird in der Traditionellen Chinesischen Medizin seit Tausenden von Jahren verwendet, um den Blutzucker auszugleichen und die Gewichtsabnahme zu fördern.',
               },
               {
-                img: '/original-assets/Group%201000002658.png',
+                img: 'https://ucarecdn.com/ab36549d-37ae-4cb7-9c9d-d558fc904f12/-/format/auto/-/preview/500x500/-/quality/lighter/Ellipse%20253.png',
                 name: 'Momordica Charantia\nAuszug',
                 text: 'Führende koreanische Forscher entdeckten, dass bereits 1 Teelöffel Bittermelonenextrakt <strong>den Blutzuckerspiegel innerhalb von 30 Minuten ausgleicht</strong> – selbst bei Menschen, die schon lange unter Blutzuckerschwankungen leiden.',
               },
@@ -105,12 +105,12 @@ export default function Results() {
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '40px', maxWidth: '700px', margin: '0 auto' }}>
             {[
               {
-                img: '/original-assets/Group%201000002659.png',
+                img: 'https://ucarecdn.com/d65a7310-23eb-47c0-a437-8f730af7d5f8/-/format/auto/-/preview/500x500/-/quality/lighter/Ellipse%20251.png',
                 name: 'Zimtkassie-Extrakt',
                 text: 'In einer bahnbrechenden Studie fanden Forscher heraus, dass Menschen, die täglich Zimtkassie einnehmen, <strong>ihren Blutzuckerspiegel auf natürliche Weise um bis zu 30 mg/dL senken können</strong> – die gleichen Ergebnisse wie gängige Blutzuckermedikamente (ohne die unangenehmen Nebenwirkungen).',
               },
               {
-                img: '/original-assets/Group%201000002660.png',
+                img: 'https://ucarecdn.com/8cc00e75-9bfe-4e73-8d69-294f93dd5829/-/format/auto/-/preview/500x500/-/quality/lighter/Ellipse%20253%20_1_.png',
                 name: 'Chromax® Chrom-Picolinat',
                 text: 'Hilft, die körpereigene Insulinausschüttung zu kontrollieren, wodurch <strong>der Blutzuckerspiegel</strong> auf natürliche Weise <strong>in der „Heißhungerfreien Zone" gehalten wird.</strong> Keine Zuckerspitzen mehr, keine Leistungseinbrüche und kein unkontrollierbarer Heißhunger.',
               },
